@@ -3,7 +3,7 @@ import os
 import time
 import socket
 import random
-#Perlengkapan Temput :v
+#Perlengkapan Tempur :v
 from datetime import datetime
 now = datetime.now()
 hour = now.hour
